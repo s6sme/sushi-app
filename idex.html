@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="btn.css" />
+    <link rel="stylesheet" href="queries.css" />
+
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="icon" href="img/logo1.png" />
+    <link rel="apple-touch-icon" href="img/logo1.png" />
+
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>SUSHI ME</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Sushi Me logo" src="img/logo1.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#meals">Menu</a></li>
+          <li><a class="main-nav-link" href="#hero">Offer</a></li>
+          <li>
+            <a class="main-nav-link" href="#cta">Order Track</a>
+          </li>
+          <li>
+            <a class="main-nav-link nav-cta" href=""
+              ><ion-icon name="person-outline"></ion-icon>Log In</ion-icon
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Enjoy delicious sushi food</h1>
+            <p class="hero-description">
+              Experience the best of authentic Japenese cuisine at our Sushi Me restaurant. Our menu features a wide range of traditional dishes, expertly prepared by our skilled chefs. 
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm"
+              >Order now &rarr;</a
+            >
+
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <ion-icon class="attach" name="attach-outline"></ion-icon>
+              </div>
+              <p class="delivered-text">
+                 We Try to Keep as <span>Fresh & Healthy</span> as Possible by Using <span>Local, seasonal Ingredients.</span> At the Same Time, We Avoid to Use artificial Ingredients and Food additives during cooking Process.
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <img
+                src="img/sushi6.png"
+                class="hero-img"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">About Us</span>
+          <h2 class="heading-secondary">We provide healthy food</h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+
+          <div class="step-img-box">
+            <img
+              src="img/sushi7.png"
+              class="step-img"
+              alt="iPhone app
+                preferences selection screen"
+            />
+          </div>
+
+          <div class="step-text-box">
+            <h3 class="heading-tertiary">
+              Tell us what you like (and what not)
+            </h3>
+            <p class="step-description">
+              Food for us comes from our relatives, whether they have wings or
+              fins or roots. That is how we consider food. Food has a culture.
+              It has a history. It has a Story. It has relationships.
+            </p>
+          </div>
+
+          
+        </div>
+      </section>
+
+      <section class="section-meals" id="meals">
+        <div class="container center-text">
+          <h2 class="heading-secondary">Popular Dishes</h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img src="img/sushi1.png" class="meal-img" alt="Japanese Gyozas" />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Sushi</span>
+              </div>
+              <p class="meal-title">Kawaii Sushi</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <span>Contains 10 types of sushi with different topping variants</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="cash-outline"
+                  ></ion-icon>
+                  <span><strong>16$</strong></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img src="img/sushi2.png" class="meal-img" alt="Avocado Salad" />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Sushi</span>
+              </div>
+              <p class="meal-title">Sushi Yummy</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <span>Combination tomago sushi and salmon sushi with wasabi</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="cash-outline"
+                  ></ion-icon>
+                  <span><strong>12$</strong></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img src="img/sushi3.png" class="meal-img" alt="Avocado Salad" />
+            <div class="meal-content">
+              <div class="meal-tags">
+
+                <span class="tag tag--paleo">Ramen</span>
+              </div>
+              <p class="meal-title">Tonkotsu Ramen</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <span>Special soup with authentic taste of real Japanese spices</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="cash-outline"
+                  ></ion-icon>
+                  <span><strong>19$</strong></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-hero" id="hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <span class="subheading">Newly Added</span>
+            <h1 class="heading-primary">
+              Sushi Shamurai Salmon Chease + Ramen
+            </h1>
+            <p class="hero-description">
+              Salmon Nigiri pieces wrapped with a thin nori strip. If you don't feel like making your own, go for this one! Boiled egg, chives, tofu, odeng slices, soft imported turkey bacon slices, and shitake mushroom in a premium spicy ramen bowl!
+            </p>
+            <a href="#cta" class="btn btn--full margin-right-sm"
+              >Order now &rarr;</a
+            >
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <img
+                src="img/sushi8.png"
+                class="hero-img"
+                alt="Woman enjoying food, meals in storage container, and food bowls on a table"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Subscribe for offer updates</h2>
+              <p class="cta-text">
+                Healthy, tasty and hassle-free meals are waiting for you. Start
+                eating well today. You can cancel or pause anytime. And the
+                first meal is on us!
+              </p>
+
+              <form class="cta-form" name="sign-up" netlify>
+                <div>
+                  <label for="email"></label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="Enter your email address"
+                    name="email"
+                    required
+                  />
+                </div>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo1" alt="Omnifood logo" src="img/logo1.png" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Address</p>
+          <address class="contacts">
+            <p class="address">2464 Royal Ln. Mesa, New Jersey 45463</p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">9.00AM - 11.00PM</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >hello@sushime.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Main Menu</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About</a></li>
+            <li><a class="footer-link" href="#">Menus</a></li>
+            <li><a class="footer-link" href="#">Events</a></li>
+            <li><a class="footer-link" href="#">Offer</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Information</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Contact</a></li>
+            <li><a class="footer-link" href="#">Order & Returns</a></li>
+            <li><a class="footer-link" href="#">Videos</a></li>
+            <li><a class="footer-link" href="#">Reservation</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
